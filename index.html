@@ -1,186 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Agent-website Template</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
-
+    <title>Signup</title>
+    <link rel="stylesheet" href="signup.css">
 </head>
+
 <body>
-    <section id='nav-bar'> 
-<nav class="navbar navbar-expand-lg bg-body-tertiary">
-    <a class="navbar-brand" href="#"><img src="/images/demo-logo.png" alt="Logo"></a>
-   
- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <i class="fa-solid fa-bars"></i>
-</button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav ms-auto">
-        <li class="nav-item">
-          <a class="nav-link "  href="#home">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#services">service</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#about">about us</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#testimonial">testimonals</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#contact">contact</a>
-        </li>
-        </ul>
-       
-      
-        
+    <div class="login-box">
+        <div class="left-box">
+            <h1>Signup</h1>
+            <form action="">
+                <input type="text" placeholder="Username">
+                <input type="text" placeholder="Email">
+                <input type="password" placeholder="Password">
+                <input type="password" placeholder="Confirm Password">
+                <input type="submit" value="Signup">
+            </form>
+        </div>
+        <div class="right-box">
+            <span class="signinwith">Signin with <br> social network</span>
+            <button class="social facebook">log in with facebook</button>
+            <button class="social google">log in with google</button>
+            <button class="social twitter">log in with twitter</button>
+        </div>
+        <div class="or">OR</div>
     </div>
- 
-</nav>
-    </section>
 
-
-    <!-- banner section -->
-    <section id="banner">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 banner-text">
-                    <h1>Welcome to Our Real Estate Agency</h1>
-                    <p>Your dream home is just a click away. Explore our listings and find the perfect property for you.</p>
-                    <a href="#" > <img src="/images/play.png" alt="" class="play-btn"> Get Started</a>
-                </div>
-                <div class="col-md-6 banner-image">
-                    <img src="/images/home2.png" alt="Banner Image" class="img-fluid">
-                </div>
-            </div>
-        </div>
-        <img src="/images/wave1.png" alt="" class="bottom-img">
-    </section>
-
-
-    <!-- services section -->
-
-    <section id="services">
-        <div class="container text-center">
-            <h1 class="title">WHAT WE OFFER</h1>
-            <div class="row">
-                <div class="col-md-4 services">
-                    <img src="images/service1.png" alt="Service 1" class="service-img ">
-                    <h3>Property Buying</h3>
-                    <p>Find your dream home with our extensive property listings and expert guidance.</p>
-                </div>
-                <div class="col-md-4 services">
-                    <img src="/images/service2.png" alt="Service 2" class="service-img">
-                    <h3>Property Selling</h3>
-                    <p>Get the best value for your property with our professional selling services.</p>
-                </div>
-                <div class="col-md-4 services">
-                    <img src="/images/service3.png" alt="Service 3" class="service-img">
-                    <h3>Property Management</h3>
-                    <p>Let us handle the day-to-day management of your property for peace of mind.</p>
-                </div>
-            </div>
-            <div>
-                <button type="button" class="btn btn-primary">View All Services</button>
-            </div>
-        </div>
-
-    </section>
-
-    <!-- about section -->
-
-    <section id="about">
-        <div class="container">
-            <h1 class="title text-center">WHY CHOOSE US?</h1>
-            <div class="row">
-                
-                <div class="col-md-6 about ">
-                    <p class="about-title">We are a leading real estate agency committed to helping you find the perfect property. With years of experience and a dedicated team, we provide exceptional service to our clients.</p>
-                    <ul>
-                        <li>Experienced Agents</li>
-                        <li>Extensive Property Listings</li>
-                        <li>Personalized Service</li>
-                        <li>Market Expertise</li>
-                    </ul>
-                </div>
-                <div class="col-md-6">
-                    <img src="/images/network.png" alt="" class="img-fluid">
-
-                </div>
-            </div>
-        </div>
-        </section>
-
-        <!-- testimonals section -->
-
-        <section id="testimonals">
-            <div class="container ">
-                <h1 class="title text-center">WHAT OUR CLIENTS SAY</h1>
-                <div class="row offset-md-1">
-                    <div class="col-md-5 testimonal">
-                                                <p class="user-details">"The team was incredibly helpful in finding my dream home. Highly recommend their services!"</p>
-
-                        <img src="/images/user1.jpg" alt="Client 1" class="client-img">
-                        <h3>John Doe</h3>
-                    </div>
-                    <div class="col-md-5 testimonal">
-                                                <p>"Professional and efficient service. They made the selling process smooth and stress-free."</p>
-
-                        <img src="/images/user2.jpg" alt="Client 2" class="client-img">
-                        <h3>Jane Smith</h3>
-                    </div>
-                  
-                </div>
-            </div>
-        </section>
-
-        <!-- social media section -->
-        <section id="social-media">
-            <div class="container text-center">
-                <h1 class="title">FOLLOW US</h1>
-                <div class="social-icons">
-                   
-                    <a href="#"><img src="/images/facebook-icon.png" alt=""></a>
-                    <a href="#"><img src="/images/twitter-icon.png" alt=""></a>
-                    <a href="#"><img src="/images/instagram-icon.png" alt=""></a>
-                    <a href="#"><img src="/images/linkedin-icon.png" alt=""></a>
-                    <a href="#"><img src="/images/whatsapp-icon.png" alt=""></a>
-                    <a href="#"><img src="/images/snapchat-icon.png" alt=""></a>
-                </div>
-            </div>
-        </section>
-
-
-        <!-- footer section -->
-
-        <section id="footer">
-            <img src="/images/wave2.png" class="footer-img" alt="">
-            <div class="container ">
-                <div class="row">
-                    <div class="col-md-4 footer-box">
-                        <img src="/images/demo-logo.png" alt="Logo" class="footer-logo">
-                        <p>Your dream home is just a click away. Explore our listings and find the perfect property for you.</p>
-                </div>
-                    <div class="col-md-4 footer-box">
-                        <p><b>contact us</b></p>
-                        <p><i class="fa fa-map-marker"></i>world trade center</p>
-                        <p><i class="fa fa-phone"></i>+1234567890</p>
-                        <p><i class="fa fa-envelope"></i>xyz@gmail.com</p>
-                    </div>
-                    <div class="col-md-4 footer-box">
-                        <input type="email" class="form-control"placeholder="Subscribe to our newsletter">
-                        <button type="button" class="btn btn-primary">Subscribe</button>
-        </div>
-                </div>
-            </div>
-            <hr>
-            <p class="copyright text-center"> &copy; 2024 All Rights Reserved by Greatstack</p>
-        </section>
 </body>
+
 </html>
